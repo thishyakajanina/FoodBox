@@ -1,0 +1,8 @@
+<div class="container">
+  <h4><a routerLink="/loginsuccess" class="nav-link">Back</a></h4>
+    <h3>Enter ID to Order Food</h3>
+  <input type="text" class="form-control" placeholder="Enter Food ID" [(ngModel)]='food.id'>
+    <button class="btn btn-primary" type="button" (click)='addcartFood(1)'>Order Food</button>
+    <button class="btn btn-primary" type="button">Add to cart </button>
+    <h4><a routerLink="/payment" class="nav-link">Payment</a></h4>
+</div>
